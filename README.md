@@ -8,3 +8,11 @@ Fun-Finder
 	(Phillip King)
 	
 */
+TODO
+==========
+/*
+	Add LocalStorage for recent searches
+	Fix "Visit Their Website!" to respond to website availability from google.
+	Possible profile registration/login support
+
+*/
