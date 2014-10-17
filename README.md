@@ -10,9 +10,9 @@ Fun-Finder
 */
 TODO
 ==========
-/*
-	Add LocalStorage for recent searches
-	Fix "Visit Their Website!" to respond to website availability from google.
+/* <br/>
+	Add LocalStorage for recent searches<br/>
+	Fix "Visit Their Website!" to respond to website availability from google.<br/>
 	Possible profile registration/login support
 
 */
