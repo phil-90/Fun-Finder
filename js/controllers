@@ -21,8 +21,8 @@ AppC.controller("MainCtrl",['$scope','weatherService', 'initService',
 				}
 				//only report if we got Good Stuff
 				if(city !== '' && state !== '') {
-                                    var result = document.getElementById('result');
-					$(result).html("Hello to you out there in "+city+", "+state+"!");
+                                    $scope.result= "Hello to you out there in "+city+", "+state+"!";
+				
                                         fetchWeather(postal);
 				}
 			}
