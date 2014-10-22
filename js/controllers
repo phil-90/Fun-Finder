@@ -46,7 +46,15 @@ AppC.controller("MainCtrl",['$scope','weatherService', 'initService',
     };
     
     $scope.showLink = function(){
-        $scope.linker = true;
+        var link = document.getElementById("placeLink").href;
+            if(link === '/undefined' || link === 'http://superfunfinder.com/#/' || link === null){
+                $scope.linker = false;
+                
+            }else{
+                $scope.linker = true;
+                alert(link);
+            }
+            
     };
  
 }]);
