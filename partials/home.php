@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div>
-            <h1 id="result"></h1><br/>
+            <h1 id="result">{{result}}</h1><br/>
             <h2>What would you like to do?</h2>
         </div>
     </div>
