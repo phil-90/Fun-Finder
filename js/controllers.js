@@ -52,7 +52,6 @@ AppC.controller("MainCtrl",['$scope','weatherService', 'initService',
                 
             }else{
                 $scope.linker = true;
-                alert(link);
             }
             
     };
